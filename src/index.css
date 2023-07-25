@@ -57,7 +57,7 @@ a {
   height: 80px;
   background-color: var(--header-bg-color);
   border-radius: 5px;
-  box-shadow: -2px 7px 5px -6px rgba(0,0,0,0.61);
+  box-shadow: -2px 7px 5px -6px rgba(0, 0, 0, 0.61);
   color: var(--light-text-color);
   font-weight: bold;
   position: fixed;
@@ -85,7 +85,7 @@ a {
   padding: 10px;
 }
 
-.nav-items > ul > li .fa-solid{
+.nav-items > ul > li .fa-solid {
   padding-top: 15%;
 }
 
@@ -110,7 +110,7 @@ a {
 }
 
 .nav-items > ul > li .logout-btn:hover,
-.nav-items > ul > li .login-btn:hover{
+.nav-items > ul > li .login-btn:hover {
   color: var(--white);
 }
 
@@ -145,7 +145,7 @@ a {
   font-weight: 500;
 }
 
-.search-container .search-input:focus{
+.search-container .search-input:focus {
   border-color: var(--dark-orange);
 }
 .search-container .search-btn {
@@ -197,8 +197,8 @@ a {
   transform: scale(1.03);
 }
 
-.card h3{
-  color: var(--light-text-title)
+.card h3 {
+  color: var(--light-text-title);
 }
 .card > img {
   width: 100%;
@@ -221,7 +221,7 @@ a {
   font-size: 14px;
   padding: 0 2px 0;
   margin-top: 10px;
-  color: var(--light-text-title)
+  color: var(--light-text-title);
 }
 
 .card > span > h4:first-child {
@@ -313,7 +313,7 @@ a {
 .menu-title-wrap {
   padding: 20px;
 }
-.menu-title-wrap .menu-title{
+.menu-title-wrap .menu-title {
   color: var(--light-text-color);
 }
 .menu-count {
@@ -501,7 +501,6 @@ a {
 }
 /*Animation to Shimmer Component Card and Menu card End*/
 
-
 /* User Offline CSS Start */
 .user-offline-container {
   text-align: center;
@@ -517,6 +516,9 @@ a {
   width: 200px;
   height: auto;
   margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .user-offline-message {
@@ -594,7 +596,6 @@ a {
   width: 500px;
   padding-right: 70px;
 }
-
 
 /* About us page CSS End */
 
@@ -712,7 +713,7 @@ a {
   margin: 30px 10px;
   color: #282828;
 }
-.profile-repo-items h3:hover{
+.profile-repo-items h3:hover {
   transform: scale(1.02);
   color: var(--dark-orange);
 }
@@ -728,7 +729,6 @@ a {
   width: 100%;
   overflow-y: hidden;
 }
-
 
 .icon-button {
   width: inherit;
@@ -750,7 +750,7 @@ a {
   margin: 0 5px 10px;
   overflow-y: hidden;
 }
-.icon-button i:hover{
+.icon-button i:hover {
   transform: scale(1.02);
 }
 .linkedin i {
@@ -786,7 +786,7 @@ a {
   font-size: x-large;
 }
 
-.contact-container .contact-right h1{
+.contact-container .contact-right h1 {
   color: var(--light-text-title);
 }
 .contact-container .contact-right form {
@@ -986,7 +986,7 @@ a {
   .repo-container {
     width: 80%;
   }
-  .restaurant-summary{
+  .restaurant-summary {
     padding-left: 20px;
   }
 }
@@ -1021,18 +1021,18 @@ a {
     height: 230px;
     overflow-y: hidden;
   }
-  .restaurant-details{
+  .restaurant-details {
     flex-wrap: wrap;
-    justify-content:flex-start;
+    justify-content: flex-start;
   }
 
-  .restaurant-rating-slash{
+  .restaurant-rating-slash {
     padding: 0px 20px;
   }
-  .menu-item{
+  .menu-item {
     flex-wrap: wrap;
   }
-  .menu-img-wrapper{
+  .menu-img-wrapper {
     padding-top: 20px;
     align-items: flex-start;
     justify-content: center;
